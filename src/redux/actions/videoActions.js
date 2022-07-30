@@ -1,6 +1,8 @@
 import * as actionTypes from "../actionTypes";
 import axios from "../../server/http-common";
 const URL = "fa/v1/video/video/mostViewedVideos";
+const API = process.env.API
+
 
 // require('dotenv').config()
 

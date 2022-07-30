@@ -16,9 +16,9 @@ export default function playPauseVideo(videos) {
   // check if videos array is filled with video element
   const videoLenght = videos.length !== 0;
   let rect;
-  // We put videos element into window.onScroll function beacuse of
-  // gather information about top and bottom postion of video elements
-  // on scroling
+          // to play video a little below of center of view port becuase when 
+          // we scroll down from bottom to top it doesnt play in exact position
+          // on scroling
   window.addEventListener("scroll", () => {
     videos.forEach((video) => {
       if (videoLenght) {

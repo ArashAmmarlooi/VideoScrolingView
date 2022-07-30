@@ -24,8 +24,8 @@ const TimeLine = () => {
     playPauseVideo(videos);
   }, [state]);
 
-  // Loadingcontainer if data is loading videos.loading is the state property
-  // when redux action dispatched it change the false value in state reducer
+// Loading container if data is loading videos.loading is the state property
+// when redux action dispatched it change the false value in state reducer
   if (videos.loading)
     return (
       <div className={styles.loadingCont}>
