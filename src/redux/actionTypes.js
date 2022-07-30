@@ -1,0 +1,3 @@
+export const GET_VIDEO_SUCCES = 'GET_VIDEO_SUCCES';
+export const GET_VIDEOS_START = 'GET_VIDEOS_START';
+export const GET_VIDEOS_STOP = 'GET_VIDEOS_STOP';
