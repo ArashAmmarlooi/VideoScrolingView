@@ -16,8 +16,8 @@ I set it on github pages but because of the API in must be applied in heroku or 
 ### setup : 
 ```sh
 npm i ( install packages )
-npm run build (production mode)
-npm start (developemnt mode)
+npm run build ( production mode )
+npm start ( developemnt mode )
 ```
 ### NOTICE: 
 I coud use itersection observer for this approach but we want to play video when it becomes the center of the viewport .
